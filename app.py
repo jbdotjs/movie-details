@@ -16,6 +16,12 @@ def movie_api(movie_name):
 	print('Directed by:',movie_details['Director'])
 	print('IMDB rating:',movie_details['imdbRating'])
 	print('Plot details:',movie_details['Plot'])
+	
+	poster_url=movie_details['Poster']
+	with open(f'{movie_name}.jpg', 'wb') as handler:
+		poster_data=requests.get(poster_url).content
+		handler.write(poster_data)
+	print('Poster Saved in current working directory.')
 
 
 movie_name=input('Enter movie name: ')
