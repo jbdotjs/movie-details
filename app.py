@@ -1,4 +1,4 @@
-import json, requests
+import requests
 
 # get your free API key from here: http://omdbapi.com/
 
