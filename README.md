@@ -2,7 +2,8 @@
 Takes a movie name &amp; finds its genre, release date, IMDB rating, plot etc.
 
 ## Options
-You can either run **"python3 app.py"** (without quotation marks) or see web version's [**Live Demo Here**](https://find-movies.netlify.app/)
+1. Web version's [**Live Demo Here**](https://find-movies.netlify.app/)
+2. For CLI version, run **"python3 app.py"** (without quotation marks) 
 
 ## Learnings
 + AJAX (handling API requests using axios)
